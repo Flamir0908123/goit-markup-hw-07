@@ -1,0 +1,46 @@
+.section.about {
+  padding-top: 0;
+}
+.about_list {
+  display: flex;
+  align-items: center;
+}
+
+.about {
+  padding-top: 0;
+}
+.about_head {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  margin-bottom: 50px;
+}
+.about_list_item:not(:last-child) {
+  margin-right: 30px;
+}
+.text_about {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+  width: 370px;
+  height: 70px;
+  padding-top: 27px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.about_list_item {
+  position: relative;
+}

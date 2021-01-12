@@ -1,0 +1,117 @@
+.section.team {
+  background-color: #f5f4fa;
+}
+.team_head {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  color: #212121;
+}
+.team_list {
+  display: flex;
+  align-items: center;
+}
+.team_item {
+  background: #ffffff;
+  /* material shadow v1 */
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team_list_head {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  margin-bottom: 10px;
+}
+.team_text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.team_list_item_text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.team_item:not(:last-child) {
+  margin-right: 30px;
+}
+.footer_social {
+  margin-left: 70px;
+}
+.social_footer {
+  justify-content: flex-start;
+  width: 206px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 12px;
+}
+.social {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  margin-top: 16px;
+}
+.menu_link_list {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+}
+.menu_link_list:hover,
+.menu_link_list:focus {
+  color: #2196f3;
+}
+.link_list {
+  fill: #afb1b8;
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+}
+.link_btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  fill: #afb1b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: all;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+}
+.link_btn:hover,
+.link_btn:focus {
+  background-color: #2196f3;
+  fill: #ffffff;
+}
