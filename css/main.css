@@ -952,12 +952,14 @@ ul {
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
+  margin-top: 12px;
   line-height: 1.875;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   border: none;
   height: 50px;
+  margin-top: 30px;
   width: 200px;
   margin-left: auto;
   margin-right: auto;
@@ -977,73 +979,7 @@ ul {
 .modal_form_icon_checbox {
   fill: #ffffff;
   position: absolute;
-  bottom: 111px;
   left: 55px;
-}
-
-.text_footer_modal {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  color: #ffffff;
-}
-
-.text_button_footer {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  /* identical to box height, or 187% */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-}
-
-.social_footer_telega {
-  position: absolute;
-  right: 28px;
-  bottom: 13px;
-  width: 24px;
-  height: 24px;
-}
-
-.modal_form_btn_footer {
-  position: relative;
-  margin-left: 12px;
-}
-
-.text_footer_input {
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  background: #2f303a;
-  border-radius: 4px;
-  width: 358px;
-  padding-left: 16px;
-  height: 50px;
-}
-
-.box_form_footer {
-  margin-left: 93px;
-  margin-top: -36px;
-}
-
-.text_footer_input {
-  color: gray;
 }
 
 .modal_form_policy_text {
@@ -1057,20 +993,6 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.text_footer_input_label {
-  width: 358px;
-}
-
-.form_footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  margin-top: 20px;
 }
 
 .modal {
