@@ -1,5 +1,5 @@
 .features_head {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -7,10 +7,10 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #212121;
+  color: $color-exclusiv;
 }
 .features_paragraph {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -18,7 +18,7 @@
 
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: $color-secondary;
 }
 .features_items {
   width: calc((100% - 90px) / 4);

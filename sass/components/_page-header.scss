@@ -16,21 +16,21 @@
   margin-right: 50px;
 }
 .menu_link_list {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: $color-exclusiv;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: linear;
 }
 .menu_link_list:hover,
 .menu_link_list:focus {
-  color: #2196f3;
+  color: $color-accent;
 }
 .menu_item:not(:last-child) {
   margin-right: 50px;
@@ -39,7 +39,7 @@
   margin-right: 93px;
 }
 .address_item {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -47,14 +47,14 @@
   letter-spacing: 0.02em;
   display: flex;
   align-items: center;
-  color: rgba(117, 117, 117, 1);
+  color: $color-secondary;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: linear;
 }
 .address_item:hover,
 .address_item:focus {
-  color: #2196f3;
+  color: $color-accent;
 }
 .address {
   display: flex;
@@ -71,4 +71,10 @@
 .link-phone {
   margin-right: 10px;
   fill: currentColor;
+}
+.color_accent {
+  color: $color-accent;
+}
+.accent {
+  color: $color-accent;
 }

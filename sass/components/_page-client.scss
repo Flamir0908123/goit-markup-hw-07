@@ -1,5 +1,5 @@
 .client_title {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -7,7 +7,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-  color: #212121;
+  color: $color-exclusiv;
 }
 .client {
   display: flex;
@@ -29,6 +29,6 @@
 }
 .client_item:hover,
 .client_item:focus {
-  border-color: #2196f3;
-  fill: #2196f3;
+  border-color: $color-accent;
+  fill: $color-accent;
 }

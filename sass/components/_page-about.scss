@@ -10,7 +10,7 @@
   padding-top: 0;
 }
 .about_head {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -18,14 +18,14 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: $color-exclusiv;
   margin-bottom: 50px;
 }
 .about_list_item:not(:last-child) {
   margin-right: 30px;
 }
 .text_about {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -35,7 +35,7 @@
   text-transform: uppercase;
   position: absolute;
   bottom: 0;
-  color: #ffffff;
+  color: $color-primary;
   width: 370px;
   height: 70px;
   padding-top: 27px;

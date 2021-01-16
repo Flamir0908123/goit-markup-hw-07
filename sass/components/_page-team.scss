@@ -2,7 +2,7 @@
   background-color: #f5f4fa;
 }
 .team_head {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -10,14 +10,14 @@
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
-  color: #212121;
+  color: $color-exclusiv;
 }
 .team_list {
   display: flex;
   align-items: center;
 }
 .team_item {
-  background: #ffffff;
+  background: $color-primary;
   /* material shadow v1 */
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -25,7 +25,7 @@
   border-radius: 0px 0px 4px 4px;
 }
 .team_list_head {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -34,11 +34,11 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: $color-exclusiv;
   margin-bottom: 10px;
 }
 .team_text {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -48,7 +48,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: $color-secondary;
 }
 .team_list_item_text {
   padding-top: 30px;
@@ -75,24 +75,24 @@
   margin-top: 16px;
 }
 .menu_link_list {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: $color-exclusiv;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: linear;
 }
 .menu_link_list:hover,
 .menu_link_list:focus {
-  color: #2196f3;
+  color: $color-accent;
 }
 .link_list {
-  fill: #afb1b8;
+  fill: $color-secondary;
   margin-right: 10px;
   width: 44px;
   height: 44px;
@@ -101,7 +101,7 @@
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: $color-primary;
   fill: #afb1b8;
   display: flex;
   justify-content: center;
@@ -112,6 +112,6 @@
 }
 .link_btn:hover,
 .link_btn:focus {
-  background-color: #2196f3;
-  fill: #ffffff;
+  background-color: $color-accent;
+  fill: $color-primary;
 }

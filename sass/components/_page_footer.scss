@@ -1,27 +1,27 @@
 .icon_footer {
-  font-family: "Raleway", sans-serif;
+  font-family: $font-releway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: $color-primary;
   margin-bottom: 20px;
   display: block;
 }
 .footer {
-  background: #2f303a;
+  background: $color-backgraund;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 .color_footer_white {
-  color: #ffffff;
+  color: $color-primary;
 }
 .color_footer {
   color: rgba(255, 255, 255, 0.6);
 }
 .titel_footer {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -29,7 +29,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
-  color: #ffffff;
+  color: $color-primary;
 }
 .social_footer {
   justify-content: flex-start;
@@ -46,14 +46,14 @@
   border-radius: 50%;
   width: 44px;
   height: 44px;
-  fill: #ffffff;
+  fill: $color-primary;
   background: rgba(255, 255, 255, 0.1);
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: linear;
 }
 .footer_svg:hover {
-  background: #2196f3;
+  background: $color-accent;
 }
 .footer_item:not(:last-child) {
   margin-right: 10px;
@@ -68,10 +68,10 @@
   display: flex;
 }
 .footer_svg:focus {
-  background: #2196f3;
+  background: $color-accent;
 }
 .text_button_footer {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -82,7 +82,7 @@
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: $color-primary;
 }
 .social_footer_telega {
   position: absolute;
@@ -93,13 +93,13 @@
 }
 .modal_form_btn_footer {
   position: relative;
-  margin-left: 12px;
+  margin-right: 12px;
 }
 .text_footer_input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  background: #2f303a;
+  background: $color-backgraund;
   border-radius: 4px;
   width: 358px;
   padding-left: 16px;
@@ -110,10 +110,11 @@
   margin-top: -36px;
 }
 .text_footer_input {
-  color: gray;
+  color: $color-secondary;
 }
 .text_footer_input_labe {
   width: 358px;
+  margin-right: 12px;
 }
 .form_footer {
   display: flex;
@@ -124,7 +125,7 @@
   margin-bottom: 9px;
 }
 .contact_list {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -140,17 +141,17 @@
 }
 .nav-contacts .link:focus,
 .nav-contacts .link:hover {
-  color: #2196f3;
-  fill: #2196f3;
+  color: $color-accent;
+  fill: $color-accent;
 }
 .color_footer_white {
-  color: #ffffff;
+  color: $color-primary;
 }
 .color_footer {
   color: rgba(255, 255, 255, 0.6);
 }
 .text_footer_modal {
-  font-family: "Roboto", sans-serif;
+  font-family: $font-roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -159,24 +160,25 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 
-  color: #ffffff;
+  color: $color-primary;
 }
-.modal_form_btn {
+.modal_form_btn_footer {
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
-
   line-height: 1.875;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: #fff;
   border: none;
   height: 50px;
-  width: 200px;
 
+  width: 200px;
+  margin-left: auto;
   margin-right: auto;
   background: #2196f3;
   border-radius: 4px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
